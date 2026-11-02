@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jQuery Introduction</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Introduction</a>
+        <a href="effects.html">Effects</a>
+        <a href="dom.html">DOM Manipulation</a>
+        <a href="animations.html">Animations</a>
+        <a href="project.html">Mini Project</a>
+    </nav>
+
+    <main>
+        <h1>Task 0. jQuery Setup</h1>
+        <p>Open the console to check if jQuery is working.</p>
+
+        <h2>Task 1. Selectors & CSS</h2>
+
+        <p id="message">This is the original text</p>
+
+        <p class="info">First paragraph</p>
+        <p class="info">Second paragraph</p>
+
+        <button id="changeButton">Apply Changes</button>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        console.log("jQuery is ready!");
+        $("#changeButton").on("click", function() {
+            $("#message").text("The text has been changed!");
+            $(".info").html("This text is <b>bold</b> now!");
+            $("p").css("color", "#526b91");
+        });
+    });
+</script>
+</body>
+</html>

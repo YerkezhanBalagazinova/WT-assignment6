@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #192337;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #b8c9e6;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    color: #303b4f;
+}
+h2 {
+    color: #440a5b;
+}
+#changeButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+#visibilityText {
+    font-size: 20px;
+    color: #303b4f;
+    margin-bottom: 20px;
+}
+
+#hideButton, #showButton, #toggleButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hideButton:hover, #showButton:hover, #toggleButton:hover {
+    background-color: #344b70;
+}
+
+
+#fadeImage {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#fadeOutButton, #fadeInButton, #fadeToggleButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#slidePanel {
+    background-color: #e7edf5;
+    width: 400px;
+    max-width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #303b4f;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#slideUpButton, #slideDownButton, #slideToggleButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#slideUpButton:hover, #slideDownButton:hover, #slideToggleButton:hover {
+    background-color: #344b70;
+}
+
+#itemList {
+    font-size: 20px;
+    color: #303b4f;
+    margin: 25px 0;
+    padding-left: 25px;
+}
+
+#itemList li {
+    margin-bottom: 12px;
+}
+
+#addItemButton, #prependItemButton, #removeItemButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addItemButton:hover, #prependItemButton:hover, #removeItemButton:hover {
+    background-color: #344b70;
+}
+
+
+#attributeImage {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#myLink {
+    color: #526b91;
+    font-size: 18px;
+}
+
+#changeImageButton, #changeLinkButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#changeImageButton:hover, #changeLinkButton:hover {
+    background-color: #344b70;
+}
+
+
+#liveForm {
+    background-color: #e7edf5;
+    width: 400px;
+    max-width: 100%;
+    padding: 25px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#liveForm label {
+    display: block;
+    font-size: 18px;
+    color: #303b4f;
+    margin-bottom: 8px;
+}
+
+#liveForm input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #9aacc5;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#liveOutput {
+    font-size: 18px;
+    color: #526b91;
+    margin-top: 20px;
+}
+
+
+
+
+#animationArea {
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    height: 260px;
+    background-color: #e7edf5;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#animationBox {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #526b91;
+    border-radius: 6px;
+    top: 20px;
+    left: 20px;
+}
+
+#animateButton {
+    background-color: #526b91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+#sequenceArea {
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    height: 260px;
+    background-color: #f2caf3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#sequenceBox {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    left: 20px;
+    background-color: #934995;
+    border-radius: 6px;
+}
+
+#sequenceButton {
+    background-color: #7d3a7e;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#combinedArea {
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    height: 260px;
+    background-color: #f8dcb4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#combinedBox {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    left: 20px;
+    background-color: #732f0f;
+    border-radius: 6px;
+}
+
+#combinedButton {
+    background-color: #6e4127;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#combinedButton:hover {
+    background-color: #344b70;
+}
+
+
+
+#accordion {
+    width: 600px;
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.question {
+    display: block;
+    width: 100%;
+    background-color: #526b91;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.question:hover {
+    background-color: #344b70;
+}
+
+.answer {
+    display: none;
+    background-color: #e7edf5;
+    color: #303b4f;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.answer p {
+    margin: 0;
+}
